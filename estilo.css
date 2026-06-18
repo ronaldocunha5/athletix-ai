@@ -49,7 +49,7 @@ section{
 
 .hero{
     min-height:100vh;
-    padding-top:120px;
+    padding-top:0px;
 
     background:
     linear-gradient(
