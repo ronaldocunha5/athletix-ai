@@ -47,11 +47,25 @@ section{
     margin-bottom:25px;
 }
 
-.hero p{
-    max-width:800px;
-    margin:0 auto 35px auto;
-    font-size:22px;
-    color:#cfcfcf;
+.hero{
+    min-height:100vh;
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,0.75),
+        rgba(0,0,0,0.90)
+    ),
+    url('images/hero-bg.png');
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    text-align:center;
 }
 
 .btn{
