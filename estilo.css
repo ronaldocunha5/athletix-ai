@@ -109,20 +109,27 @@ section{
     margin-top:40px;
 }
 
+.cards{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+    max-width:900px;
+    margin:50px auto;
+}
+
 .card{
-    background:#111;
+    background:#0b0b0b;
     border:1px solid #0A84FF;
     border-radius:15px;
     padding:35px;
     text-align:center;
     font-size:22px;
-}
+    transition:0.3s;
 }
 
-.fundadores ul{
-    max-width:500px;
-    margin:30px auto;
-    list-style:none;
+.card:hover{
+    transform:translateY(-5px);
+    border-color:#2d9cff;
 }
 
 .fundadores li{
