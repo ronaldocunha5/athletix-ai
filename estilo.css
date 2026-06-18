@@ -135,3 +135,20 @@ footer{
     color:#888;
     border-top:1px solid #111;
 }
+.quem-somos{
+    text-align:center;
+    padding:120px 0;
+}
+
+.quem-somos h2{
+    font-size:48px;
+    margin-bottom:40px;
+}
+
+.quem-somos p{
+    max-width:900px;
+    margin:20px auto;
+    font-size:22px;
+    color:#d0d0d0;
+    line-height:1.8;
+}
