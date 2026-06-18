@@ -178,3 +178,50 @@ footer{
     color:#d0d0d0;
     line-height:1.8;
 }
+.navbar{
+    position:fixed;
+    top:0;
+    width:100%;
+    background:rgba(0,0,0,0.85);
+    backdrop-filter:blur(10px);
+    z-index:999;
+}
+
+.nav-container{
+    max-width:1200px;
+    margin:0 auto;
+    padding:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    color:#0A84FF;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.menu{
+    display:flex;
+    gap:30px;
+}
+
+.menu a{
+    color:white;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+.menu a:hover{
+    color:#0A84FF;
+}
+
+.nav-btn{
+    background:#0A84FF;
+    color:white;
+    padding:12px 25px;
+    border-radius:10px;
+    text-decoration:none;
+    font-weight:bold;
+}
