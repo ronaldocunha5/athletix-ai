@@ -49,6 +49,7 @@ section{
 
 .hero{
     min-height:100vh;
+    padding-top:120px;
 
     background:
     linear-gradient(
@@ -64,10 +65,8 @@ section{
     display:flex;
     align-items:center;
     justify-content:center;
-
     text-align:center;
 }
-
 .btn{
     display:inline-block;
     background:#0A84FF;
